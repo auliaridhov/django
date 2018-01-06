@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+{%load static %}
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Defend of the Ancients</title>
+
+    <!-- IMPORT FONT -->
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+
+    <!-- IMPORT CSS -->
+    <link rel="stylesheet" href="{% static 'css\bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css\style.css' %}">
+    <link rel="stylesheet" href="{% static 'css\linearis.css' %}"/>
+  </head>
+
+  <body>
+    <!-- DISINI BELAJAR BUAT HEADER -->
+    <div class="header-wrapper">
+      <div class="header">
+        <div class="container">
+          <div class="title">
+            <h1>DOTA 2 ARTICLES</h1>
+          </div>
+          <p class="description">
+          Every day, millions of players worldwide enter battle as one of over a hundred Dota heroes. And no matter if it's their 10th hour of play or 1,000th, there's always something new to discover. With regular updates that ensure a constant evolution of gameplay, features, and heroes, Dota 2 has truly taken on a life of its own.</p>
+          <a href="{% url 'halamanke2'%}" target="blank" class="btn custom-btn-header">MENU</a> <br>
+          <br>
+          <a href="/admin" target="blank" class="btn custom-btn-header">LOGIN</a> <br>
+          <br>
+          <a href="{% url 'about'%}" class="btn custom-btn-header">HELP & ABOUT</a>
+        </div>
+      </div>
+    </div>
